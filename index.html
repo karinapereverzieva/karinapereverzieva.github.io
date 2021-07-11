@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>HTML-верстальщик | Портфолио html верстальщика - Переверзева Карина</title>
+
+  <!-- Chrome, Firefox OS and Opera цвет адресной строки браузера-->
+  <meta name="theme-color" content="#2C3E50">
+
+  <!-- Windows Phone цвет кнопок назад-вперед-->
+  <meta name="msapplication-navbutton-color" content="#2C3E50">
+
+  <!-- iOS Safari на экране «Домой» включает полноэкранный режим-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- iOS Safari задает стиль панели состояния при полноэкранном режиме.-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+  <!-- СТИЛИ -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- Контейнер-обертка для прижатия футера -->
+  <div class="container clr">
+    <div id="scroller" class="scroller"></div>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <h1>
+        HTML<br>ВЕРСТАЛЬЩИК<br>
+        <span class="header__name">Переверзева Карина</span>
+      </h1>
+      <!-- Навигация -->
+      <nav>
+        <ul class="menu">
+          <li><a class="menu__button button" href="#about-me">Обо мне</a></li>
+          <li><a class="menu__button button" href="#portfolio">Портфолио</a></li>
+          <li><a class="menu__button button" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Основной контент -->
+    <main class="content">
+      <!-- Обо мне -->
+      <section id="about-me" class="welcome">
+        <p class="welcome__hello">Здравствуйте. Меня зовут Карина и я рада
+          приветствовать Вас на своем сайте.</p>
+        <p class="welcome__links">Здесь я размещаю свои работы по верстке сайтов.<br>Вы можете с ними <a class="link" href="#portfolio">подробно ознакомиться</a>, а также <a class="link" href="#contacts">связаться со мной.</a>
+        </p>
+      </section>
+      <hr class="content__line">
+      <section class="skills">
+        <h2>Навыки и инструменты, которые я использую</h2>
+        <ul class="skills__skills-box skills-box">
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/HTML5.png" alt="HTML5 логотип">
+            <p>HTML5</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/CSS3.png" alt="CSS3 логотип">
+            <p>CSS3</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/jquery.png" alt="jQuery логотип">
+            <p>jQuery</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/pug.png" alt="Less логотип">
+            <p>Pug</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/sass.svg" alt="Less логотип">
+            <p>Sass</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/avocode.png" alt="Avocode логотип">
+            <p>Avocode</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/zeplin.png" alt="Zeplin логотип">
+            <p>Zeplin</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/PerfectPixel.png" alt="PerfectPixel логотип">
+            <p>PerfectPixel</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/webstorm.png" alt="WebStorm логотип">
+            <p>WebStorm</p>
+          </li>
+
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/git.png" alt="Git логотип">
+            <p>Git</p>
+          </li>
+          <li class="skill-box__skill">
+            <img class="skill-box__skill-img" src="media/images/BEM.png" alt="БЭМ логотип">
+            <p>БЭМ</p>
+          </li>
+        </ul>
+      </section>
+      <hr class="content__line">
+      <!-- Портфолио -->
+      <section id="portfolio" class="portfolio">
+        <h2>Мои работы</h2>
+        <div class="portfolio__box">
+
+          <article class="portfolio__miniature-box">
+            <img class="portfolio__miniature-img" src="media/img-p/site-0.png" alt="Верстальщик Переверзева Карина Website">
+            <div class="portfolio__miniature-hidden">
+              <h3>Сайт-портфолио.</h3>
+              <a class="portfolio__button button" href="index.html">Смотреть</a>
+              <p>Респонсивная верстка без макета на flex. Использовались: БЭМ, семантические теги HTML5, JavaScript.</p>
+            </div>
+          </article>
+
+          <article class="portfolio__miniature-box">
+            <img class="portfolio__miniature-img" src="media/img-p/site-2.png" alt="Al Rayhan - UI/UX Expert">
+            <div class="portfolio__miniature-hidden">
+              <h3>Сайт-портфолио.</h3>
+              <a class="portfolio__button button" href="Site-2/index.html">Смотреть</a>
+              <p>Респонсивная верстка на flex. Использовались: БЭМ, семантические теги HTML5</p>
+            </div>
+          </article>
+          <article class="portfolio__miniature-box">
+            <img class="portfolio__miniature-img" src="media/img-p/site-1.png" alt="Interior">
+            <div class="portfolio__miniature-hidden">
+              <h3>Сайт-портфолио.</h3>
+              <a class="portfolio__button button" href="Site-1/index.html">Смотреть</a>
+              <p>Моя первая вёрстка сайта по psd макету. Респонсивная верстка на flex. Использовались: БЭМ, CSS-трансформация, JavaScript, jQuery.</p>
+            </div>
+          </article>
+        </div>
+
+      </section>
+      <!-- Контакты -->
+      <section id="contacts" class="contacts">
+        <h2>Связь со мной</h2>
+        <!--микроформат hCard-->
+        <div class="contacts__vcard vcard">
+          <span class="fn org vcard__name">Переверзева Карина Дмитриевна</span>
+          <i class="fa fa-map-marker vcard__icon" aria-hidden="true"></i><span class="adr"><span class="locality">г. Кропивницкий</span></span>
+          <i class="fa fa-phone vcard__icon" aria-hidden="true"></i><span class="tel">Позвонить: <a class="value link link_white" title="+38 (097) 98-30-487" href="tel:+38 (097) 98-30-487">
+              <span>+38 (097) 98-30-487</span>
+            </a></span>
+          <i class="fa fa-envelope-o vcard__icon" aria-hidden="true"></i>Написать: <a class="link link_white" href="mailto:zhelai.karina98765432@gmail.com">zhelai.karina98765432@gmail.com</a>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- Футер -->
+  <footer class="footer">
+    <p class="link link_white"  target="_blank" rel="nofollow">Copyright &copy; Переверзева Карина 2019-
+      <script>
+        document.write(new Date().getFullYear());
+
+      </script>.
+    </p>
+  </footer>
+
+  <!-- СКРИПТЫ -->
+  <script defer src='js/main.js'></script>
+
+
+</body>
+
+</html>
